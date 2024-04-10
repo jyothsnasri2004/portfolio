@@ -1,0 +1,88 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:rgb(141, 141, 2);
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: rgb(1, 9, 36);
+    padding: 50px 0;
+    color:white;
+}
+/*header image*/
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+#about{
+    font-size:1.5rem;
+    background-color: black;
+    color:white;
+    padding:100px;
+}
+#resume{
+    color:white;
+}
+#resume a:hover{
+    color:rgb(31, 31, 78);
+}
+
+/* Portfolio styles */
+#portfolio {
+    background-color: grey;
+    text-align:left;
+    padding: 100px;
+}
+
+.project {
+    margin-bottom: 40px;
+    color:black;
+}
+
+.project a{
+    color:black;
+}
+
+/* Contact form styles */
+.contact{
+    padding:50px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding:10px;
+}
